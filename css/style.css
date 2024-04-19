@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #c7c8c9;
+    color: #fff;
+}
+
+.logo img {
+    width: 10%;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navlist li:last-child {
+    margin-right: 0;
+}
+
+.navlist a {
+    text-decoration: none;
+}
+
+.cadastro-button {
+    background-color: yellow;
+    color: #333;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pesquisa-barra {
+    width: calc(100% - (20% * 2));
+    margin: 0 auto;
+}
+
+/*Estilos para o meio*/
+.loja{
+    width: 100%;
+    height: 80vh;
+}
+.game{
+    display: flex;
+    flex-direction: row;
+}
+.game img{
+    padding: 20px;
+    width: 20%;
+}
+.content {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  
+  
+  .slide {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+  }
+  
+  .descricao {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .gameplay {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .gameplay img {
+    width: 48%; 
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/*Página de Titulos*/
+.consoles {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.consoles img{
+    width: 250px;
+    margin: 10px;
+}
+
+
+/* Estilos para o rodapé */
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #a09f9f;
+    color: #fff;
+}
+
+.logo-rodape img {
+    width: 150px;
+}
+
+.fale-conosco {
+    text-align: right;
+}
+
+.info-contato {
+    margin-top: 10px;
+}
+
+.telefone, .email {
+    display: flex;
+    align-items: center;
+}
+
+.telefone img, .email img {
+    margin-right: 10px;
+    width: 20px;
+}
