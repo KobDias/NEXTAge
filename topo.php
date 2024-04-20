@@ -12,9 +12,9 @@
     <div class="topo">
         <div class="brand"><a href="index.php"><img class="img-fluid logo" src=".\imgs\banners\Logo.png" alt="Logo"></a></div>
         <ul class="navlist">
-            <li ><a href="index.php?p=2" >Títulos</a></li>
-            <li ><a href="index.php?p=3" >Fale Conosco</a></li>
-            <li ><a href="index.php?p=4" >Login</a></li>
+            <li ><a class="rosa" href="index.php?p=2" >Títulos</a></li>
+            <li ><a class="rosa" href="index.php?p=3" >Fale Conosco</a></li>
+            <li ><a class="rosa" href="index.php?p=4" >Login</a></li>
             <li ><a href="index.php?p=15" class="cadastro-button">Cadastro</a></li>
         </ul>
     </div> 
