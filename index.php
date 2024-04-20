@@ -8,7 +8,6 @@
     } else {
         $p = 'default'; // Defina a página padrão aqui, se nenhum valor for passado pelo $_GET
     }
-
     // Determina qual página incluir com base no valor de $p
     switch ($p) {
         case '1':
@@ -22,6 +21,9 @@
             break;
         case '4':
             include "login.php";
+            break;
+        case '15':
+            include "cadastro.php";
             break;
         case '5':
             include "snes.php";

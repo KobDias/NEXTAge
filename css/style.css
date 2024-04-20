@@ -2,19 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
 .topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #c7c8c9;
+    background-color: #f8f8f8;
     color: #fff;
 }
-
-.logo img {
-    width: 10%;
-}
-
 .navlist {
     list-style-type: none;
     margin: 0;
@@ -36,7 +32,7 @@
 
 .cadastro-button {
     background-color: yellow;
-    color: #333;
+    color: #eeeded;
     padding: 8px 16px;
     border: none;
     border-radius: 5px;
@@ -66,10 +62,7 @@
 .content {
     display: flex;
     overflow-x: auto;
-  }
-
-  
-  
+  } 
   .slide {
     display: flex;
     flex-direction: column;
@@ -126,7 +119,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #a09f9f;
+    background-color: #e7e7e7;
     color: #fff;
 }
 
@@ -150,4 +143,18 @@
 .telefone img, .email img {
     margin-right: 10px;
     width: 20px;
+}
+.logo{
+    width: 20%;
+}
+.imagem{
+    width: 60%;
+}
+.caixa{
+    background-color: #f2f2f2;
+    padding-bottom: 200px;
+    border-radius: 20px;
+}
+.pequenalogo{
+    width: 70%;
 }
