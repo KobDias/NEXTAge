@@ -11,43 +11,43 @@
     // Determina qual página incluir com base no valor de $p
     switch ($p) {
         case '1':
-            include "index.php";
+            include require_once "index.php";
             break;
         case '2':
-            include "titulos.php";
+            include require_once "titulos.php";
             break;
         case '3':
-            include "sobre.php";
+            include require_once "sobre.php";
             break;
         case '4':
-            include "login.php";
+            include require_once "login.php";
             break;
         case '15':
-            include "cadastro.php";
+            include require_once "cadastro.php";
             break;
         case '5':
-            include "snes.php";
+            include require_once "snes.php";
             break;
         case '6':
-            include "gameboy.php";
+            include require_once "gameboy.php";
             break;
         case '7':
-           include "nintendo64.php";
+           include require_once "nintendo64.php";
             break;
        case '8':
-            include "wii.php";
+            include require_once "wii.php";
             break;
         case '9':
-            include "megadrive.php";
+            include require_once "megadrive.php";
             break;
         case '10':
-            include "xbox.php";
+            include require_once "xbox.php";
             break;
         case '11':
-            include "playstation.php";
+            include require_once "playstation.php";
             break;
         default:
-            include "meio.php"; // Página padrão se $p não corresponder a nenhum caso
+            include require_once "meio.php"; // Página padrão se $p não corresponder a nenhum caso
 
             //Vá incluindo mais casos se for necessário
     }
