@@ -1,7 +1,7 @@
 # NEXTAge
 
 ## Visão Geral
-Um projeto acadêmico divertido inspirado por ninguém mais, ninguem menos que Alanzoka. Desenvolvido com o objetivo de entender e aplicar o uso do Bootstrap. O site consiste em uma aplicação que simula uma loja imaginária de mídia física em homenagem aos bons e velhos tempos.
+Um projeto acadêmico divertido inspirado por ninguém mais, ninguem menos que Alanzoka. Desenvolvido com o objetivo de entender e aplicar o uso do Bootstrap, o site consiste em uma aplicação que simula uma loja imaginária de mídia física em homenagem aos bons e velhos tempos.
 
 ## Ideia
 
