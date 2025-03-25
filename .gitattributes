@@ -1,6 +1,9 @@
-*.php linguist-detectable=true
+*.php linguist-language=PHP
+
 *.html linguist-detectable=true
-*.css linguist-detectable=true 
+*.css linguist-detectable=true
+*.scss linguist-detectable=false
 *.js linguist-detectable=true
+*.json linguist-detectable=false
 *.hack linguist-detectable=false
 *.md linguist-detectable=false
